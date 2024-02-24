@@ -1,0 +1,28 @@
+Header -> Packet -> Data
+
+Header -> Information about the packet (To, From, Content-type)
+meta-data (data about data)
+
+res.setHeader("X-name", "value")
+
+
+STATUS CODE - indicates if the http request has been successfully completed
+
+100 - 199 -> Informational
+200 - 299 -> Successfully
+300 - 399 -> Redirection
+400 - 499 -> Client Error responses
+500 - 599 -> Server Error responses
+
+200 OK -> successful response
+201 Created -> succesfully Created
+
+400 Bad request
+401 Unauthorized (not logged in)
+402 Payment required
+403 Forbidden (not allowed to perform particular operation)
+404 Not found (path / route not available)
+
+500 Internal server error -> code syntax logical error
+501 Not implemented
+503 Service unavailable
