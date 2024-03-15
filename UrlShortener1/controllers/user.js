@@ -8,7 +8,7 @@ async function handleUserSignup(req, res) {
         name,
         email,
         password
-    })
+    }).then((err) => console.log("Inserted"))
 
     return res.redirect('/')
 }
